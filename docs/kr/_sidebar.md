@@ -1,6 +1,6 @@
 - Getting started
 
-  - [Quick start](quickstart.md)
+  - [Quick start](kr/quickstart.md)
   - [Show Room](more-pages.md)
 
 - Core Engine

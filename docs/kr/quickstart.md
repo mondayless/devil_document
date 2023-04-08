@@ -20,7 +20,7 @@ https://s3.ap-northeast-2.amazonaws.com/console.deavil.com/devil_plugin.sketchpl
 
 스캐치를 설치한 후 위 다운로드 링크를 클릭하여 DAB 플러그인을 설치하면 다음과 같은 메뉴가 생긴다
 
-![sketch-plugin-menu](../_images/sketch-plugin-menu.png)
+<img src="https://github.com/mondayless/devil_document/blob/master/docs/_images/sketch-plugin-menu.png?raw=true" width="100%"/>
 
 
 ## DAB Console 로그인
@@ -33,7 +33,11 @@ DAB 콘솔에서 주로 개발이 이루어진다
 ## DAB Mobile Application
 
 DAB 모바일 어플리케이션을 다운받는다 
+이것은 개발물을 앱으로 확인하거나 디버깅하는데 사용한다
 
-<img src="../_images/qrcode.jpg" width="20%" height="20%">
+<img src="https://github.com/mondayless/devil_document/blob/master/docs/_images/qrcode.jpg?raw=true" width="20%" />
 
 https://sketchtoapp.page.link/store
+
+## 프로젝트 생성
+
