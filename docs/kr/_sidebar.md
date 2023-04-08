@@ -1,29 +1,24 @@
 - Getting started
 
   - [Quick start](quickstart.md)
-  - [Writing more pages](more-pages.md)
-  - [Custom navbar](custom-navbar.md)
-  - [Cover page](cover.md)
+  - [Show Room](more-pages.md)
 
-- Customization
+- Core Engine
+  - [Concept](configuration.md)
+  - [Usage](configuration.md)
 
-  - [Configuration](configuration.md)
-  - [Themes](themes.md)
-  - [List of Plugins](plugins.md)
-  - [Write a Plugin](write-a-plugin.md)
-  - [Markdown configuration](markdown.md)
-  - [Language highlighting](language-highlight.md)
-  - [Emoji](emoji.md)
+- Deveopment Features
 
-- Guide
+  - [Sketch Plugin](configuration.md)
+  - [DAB Web Console](themes.md)
+  - [Block Rule](plugins.md)
+  - [Jevil](markdown.md)
+  - [DAB App](language-highlight.md)
+  - [Deploy](emoji.md)
 
-  - [Deploy](deploy.md)
-  - [Helpers](helpers.md)
-  - [Vue compatibility](vue.md)
-  - [CDN](cdn.md)
-  - [Offline Mode (PWA)](pwa.md)
-  - [Server-Side Rendering (SSR)](ssr.md)
-  - [Embed Files](embed-files.md)
+- Jevil API Refernce
 
-- [Awesome docsify](awesome.md)
+  - [API](deploy.md)
+  - [예제](helpers.md)
+  
 - [Changelog](changelog.md)
