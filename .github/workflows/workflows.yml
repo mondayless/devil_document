@@ -1,0 +1,20 @@
+name: Deploy to S3
+on:
+  push:
+    branches: [ master ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    environment: aws_access_key_id
+    steps:
+      - uses: actions/checkout@v1
+      - name: Upload to S3
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ap-northeast-2
+      - run: aws configure set aws_access_key_id ${{ secrets.AWS_ACCESS_KEY_ID }}
+      - run: aws configure set aws_secret_access_key ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+      - run: aws s3 cp ./docs/ s3://document.devil-app-builder.com/ --recursive
+      - run: aws cloudfront create-invalidation --distribution-id E208Z5PC1SZ1IH --paths "/*"
