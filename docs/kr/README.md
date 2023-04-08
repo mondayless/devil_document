@@ -8,7 +8,7 @@ Console https://console.deavil.com
 
 ## What it is
 
-DAB(aka Devil App Builder) is Small-Code Development Platform. 
+DAB(aka Devil App Builder)는 스몰 코딩 플랫폼이다
 
 See the [Quick start](quickstart.md) guide for more details.
 
