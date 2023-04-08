@@ -1,124 +1,39 @@
 # Quick start
 
-It is recommended to install `docsify-cli` globally, which helps initializing and previewing the website locally.
+본격적인 개발에 앞서 다음을 준비해야 한다
 
-```bash
-npm i docsify-cli -g
-```
+- 스캐치 어플리케이션 설치
+- 스캐치 플러그인 설치
+- DAB Console 로그인
+- DAB Application 앱 설치
 
-## Initialize
+## 스캐치 다운로드
 
-If you want to write the documentation in the `./docs` subdirectory, you can use the `init` command.
+스캐치는 맥에서 다운로드 가능한 소프트웨어이며,
+UX를 그리는 툴로서 UX가 DAB를 통해 바로 네이티브 화면으로 변환된다
+https://www.sketch.com/apps/
 
-```bash
-docsify init ./docs
-```
 
-## Writing content
+## 스캐치 플러그인 설치
 
-After the `init` is complete, you can see the file list in the `./docs` subdirectory.
+https://s3.ap-northeast-2.amazonaws.com/console.deavil.com/devil_plugin.sketchplugin.zip
 
-- `index.html` as the entry file
-- `README.md` as the home page
-- `.nojekyll` prevents GitHub Pages from ignoring files that begin with an underscore
+스캐치를 설치한 후 위 다운로드 링크를 클릭하여 DAB 플러그인을 설치하면 다음과 같은 메뉴가 생긴다
 
-You can easily update the documentation in `./docs/README.md`, of course you can add [more pages](more-pages.md).
+![sketch-plugin-menu](../_images/sketch-plugin-menu.png)
 
-## Preview your site
 
-Run the local server with `docsify serve`. You can preview your site in your browser on `http://localhost:3000`.
+## DAB Console 로그인
 
-```bash
-docsify serve docs
-```
+https://console.deavil.com
+에 로그인한다
 
-?> For more use cases of `docsify-cli`, head over to the [docsify-cli documentation](https://github.com/mondayless/devil_documenty-cli).
+DAB 콘솔에서 주로 개발이 이루어진다
 
-## Manual initialization
+## DAB Mobile Application
 
-If you don't like `npm` or have trouble installing the tool, you can manually create `index.html`:
+DAB 모바일 어플리케이션을 다운받는다 
 
-```html
-<!-- index.html -->
+<img src="../_images/qrcode.jpg" width="20%" height="20%">
 
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta charset="UTF-8" />
-    <link
-      rel="stylesheet"
-      href="//cdn.jsdelivr.net/npm/docsify@4/themes/vue.css"
-    />
-  </head>
-  <body>
-    <div id="app"></div>
-    <script>
-      window.$docsify = {
-        //...
-      };
-    </script>
-    <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
-  </body>
-</html>
-```
-
-### Specifying docsify versions
-
-?> Note that in both of the examples below, docsify URLs will need to be manually updated when a new major version of docsify is released (e.g. `v4.x.x` => `v5.x.x`). Check the docsify website periodically to see if a new major version has been released.
-
-Specifying a major version in the URL (`@4`) will allow your site will receive non-breaking enhancements (i.e. "minor" updates) and bug fixes (i.e. "patch" updates) automatically. This is the recommended way to load docsify resources.
-
-```html
-<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/themes/vue.css" />
-<script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
-```
-
-If you prefer to lock docsify to a specific version, specify the full version after the `@` symbol in the URL. This is the safest way to ensure your site will look and behave the same way regardless of any changes made to future versions of docsify.
-
-```html
-<link
-  rel="stylesheet"
-  href="//cdn.jsdelivr.net/npm/docsify@4.11.4/themes/vue.css"
-/>
-<script src="//cdn.jsdelivr.net/npm/docsify@4.11.4"></script>
-```
-
-### Manually preview your site
-
-If you have Python installed on your system, you can easily use it to run a static server to preview your site.
-
-```python2
-cd docs && python -m SimpleHTTPServer 3000
-```
-
-```python3
-cd docs && python -m http.server 3000
-```
-
-## Loading dialog
-
-If you want, you can show a loading dialog before docsify starts to render your documentation:
-
-```html
-<!-- index.html -->
-
-<div id="app">Please wait...</div>
-```
-
-You should set the `data-app` attribute if you changed `el`:
-
-```html
-<!-- index.html -->
-
-<div data-app id="main">Please wait...</div>
-
-<script>
-  window.$docsify = {
-    el: '#main',
-  };
-</script>
-```
-
-Compare [el configuration](configuration.md#el).
+https://sketchtoapp.page.link/store
