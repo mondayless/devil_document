@@ -22,6 +22,9 @@ https://s3.ap-northeast-2.amazonaws.com/console.deavil.com/devil_plugin.sketchpl
 
 <img src="https://github.com/mondayless/devil_document/blob/master/docs/_images/sketch-plugin-menu.png?raw=true" width="100%"/>
 
+설치 후 로그인을 한다
+
+로그인을 해야 DAB Console에 스캐치를 업로드할 수 있다
 
 ## DAB Console 로그인
 
@@ -37,7 +40,15 @@ DAB 모바일 어플리케이션을 다운받는다
 
 <img src="https://github.com/mondayless/devil_document/blob/master/docs/_images/qrcode.jpg?raw=true" width="20%" />
 
-https://sketchtoapp.page.link/store
+https://dab.page.link/download
 
 ## 프로젝트 생성
+
+## 스캐치에서 첫 화면 생성 후 업로드
+
+## 앱에서 확인
+
+## Network 요청
+
+## Text 치환
 
