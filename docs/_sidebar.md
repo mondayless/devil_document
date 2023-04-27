@@ -7,18 +7,19 @@
   - [Concept](configuration.md)
   - [Usage](configuration.md)
 
-- Deveopment Features
+- DAB Web Console
 
   - [Sketch Plugin](configuration.md)
-  - [DAB Web Console](themes.md)
-  - [Block Rule](plugins.md)
-  - [Jevil](markdown.md)
-  - [DAB App](language-highlight.md)
+  - [screeb setting](themes.md)
   - [Deploy](emoji.md)
 
 - Jevil API Refernce
 
   - [Reference](deploy.md)
   - [Tutorial](helpers.md)
+
+- Block Rule Refernce
+
+  - [Reference](deploy.md)
 
 - [Changelog](changelog.md)
