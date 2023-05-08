@@ -33,7 +33,7 @@ https://console.deavil.com
 
 DAB 콘솔에서 주로 개발이 이루어진다
 
-## DAB Mobile Application
+## Download DAB From App Store
 
 DAB 모바일 어플리케이션을 다운받는다 
 이것은 개발물을 앱으로 확인하거나 디버깅하는데 사용한다
@@ -42,13 +42,26 @@ DAB 모바일 어플리케이션을 다운받는다
 
 https://dab.page.link/download
 
-## 프로젝트 생성
+## 스캐치 템플릿에서 시작하기
+new project from 템플릿해서 스캐치를 다운로드 한다
 
 ## 스캐치에서 첫 화면 생성 후 업로드
+다운받은 스캐치를 편집후 업로드를 한다
 
 ## 앱에서 확인
+DAB앱을 다운받고 확인
 
-## Network 요청
+## Jevil로 Network 요청
+Jevil로 테스트 api 요청 후 테스트
 
-## Text 치환
+## data 다루기
+data에 넣기
 
+## 튜토리얼 - Text 치환
+data의 property에 치기
+
+## list 만들기
+data.list에 치기
+
+## thisData 다루기
+thisData 치기
