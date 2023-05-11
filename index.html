@@ -26,7 +26,7 @@
     <div id="app"></div>
     <script>
       // Set html "lang" attribute based on URL
-      var lang = location.hash.match(/#\/(de-de|es|ru-ru|zh-cn)\//);
+      var lang = location.hash.match(/#\/(de-de|es|ko|ru-ru|zh-cn)\//);
 
       if (lang) {
         document.documentElement.setAttribute('lang', lang[1]);
@@ -58,10 +58,10 @@
         mergeNavbar: true,
         maxLevel: 4,
         subMaxLevel: 2,
-        name: 'docsify',
+        name: 'DAB',
         nameLink: {
           '/es/': '#/es/',
-          '/kr/': '#/kr/',
+          '/ko/': '#/ko/',
           '/de-de/': '#/de-de/',
           '/ru-ru/': '#/ru-ru/',
           '/zh-cn/': '#/zh-cn/',
@@ -70,6 +70,7 @@
         search: {
           noData: {
             '/es/': '¡No hay resultados!',
+            '/ko/': '결과가 없습니다',
             '/de-de/': 'Keine Ergebnisse!',
             '/ru-ru/': 'Никаких результатов!',
             '/zh-cn/': '没有结果!',
@@ -78,12 +79,13 @@
           paths: 'auto',
           placeholder: {
             '/es/': 'Buscar',
+            '/ko': '검색',
             '/de-de/': 'Suche',
             '/ru-ru/': 'Поиск',
             '/zh-cn/': '搜索',
             '/': 'Search',
           },
-          pathNamespaces: ['/es', '/de-de', '/ru-ru', '/zh-cn'],
+          pathNamespaces: ['/es', '/ko', '/de-de', '/ru-ru', '/zh-cn'],
         },
         plugins: [
           function (hook, vm) {

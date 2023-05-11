@@ -130,7 +130,7 @@ window.$docsify = {
   coverpage: 'cover.md',
 
   // multiple covers
-  coverpage: ['/', '/zh-cn/'],
+  coverpage: ['/', '/kr-ko', '/zh-cn/'],
 
   // multiple covers and custom file name
   coverpage: {

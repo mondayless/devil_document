@@ -1,13 +1,13 @@
-- Getting started
+- Getting started(한글)
 
-  - [Quick start](quickstart.md)
+  - [Quick start](ko/quickstart.md)
 
 - Sketch 
   - [Sketch Plugin](configuration.md)
   - [제작 시 유의점](configuration.md)
 
 - DAB Web Console
-  - [Screen](screen.md)
+  - [Screen](themes.md)
   - [Block](block.md)
   - [Deploy](emoji.md)
 

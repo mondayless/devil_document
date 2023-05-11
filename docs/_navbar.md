@@ -1,4 +1,4 @@
 - Translations
   - [:uk: English](/)
-  - [:kr: Korean](/kr/)
+  - [:kr: Korean](/ko/)
   
