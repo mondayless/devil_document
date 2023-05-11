@@ -7,6 +7,7 @@
   - [제작 시 유의점](configuration.md)
 
 - DAB Web Console
+  - [Project](target.md)
   - [Screen](screen.md)
   - [Block](block.md)
   - [Deploy](emoji.md)
