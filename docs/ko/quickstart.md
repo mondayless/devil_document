@@ -33,20 +33,23 @@ https://console.deavil.com
 
 DAB 콘솔에서 주로 개발이 이루어진다
 
-## Download DAB From App Store
+## 앱스토어 에서 다운로드 하기
 
-DAB 모바일 어플리케이션을 다운받는다 
-이것은 개발물을 앱으로 확인하거나 디버깅하는데 사용한다
+DAB 모바일 어플리케이션을 다운받는데 이 앱은 다음과 같은 용도로 사용한다
+- 개발물 확인
+- 디버깅
 
 <img src="https://github.com/mondayless/devil_document/blob/master/docs/_images/qrcode.jpg?raw=true" width="20%" />
 
 https://dab.page.link/download
 
 ## 스캐치 템플릿에서 시작하기
-new project from 템플릿해서 스캐치를 다운로드 한다
+준비중
 
 ## 스캐치에서 첫 화면 생성 후 업로드
 다운받은 스캐치를 편집후 업로드를 한다
+<img src="https://github.com/mondayless/devil_document/blob/master/docs/_images/sketch_upload.png?raw=true" width="20%" />
+
 
 ## 앱에서 확인
 DAB앱을 다운받고 확인
