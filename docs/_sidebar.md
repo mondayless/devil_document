@@ -1,33 +1,33 @@
 - Getting started
 
-  - [Quick start](quickstart.md)
+  - [Quick Start](ko/quickstart.md)
+  - [개요](ko/quickstart2.md)
 
 - Sketch 
-  - [Sketch Plugin](configuration.md)
-  - [제작 시 유의점](configuration.md)
+  - [Sketch Plugin](ko/sketchplugin.md)
+  - [제작 시 유의점](ko/sketchguide.md)
 
 - DAB Web Console
-  - [Project](target.md)
-  - [Screen](screen.md)
-  - [Block](block.md)
-  - [Deploy](emoji.md)
+  - [Screen](preparing.md)
+  - [Block](preparing.md)
+  - [Deploy](preparing.md)
 
 - Block Rule
 
-  - [Sketch Root](sketch-root.md)
-  - [Image Mapping](pwa.md)
-  - [Text Mapping](target.md)
-  - [Click Mapping](target.md)
-  - [Layout](target.md)
-  - [Repeat Node](repeat-rule.md)
-  - [Hidden](target.md)
-  - [Input](target.md)
-  - [CheckBox](target.md)
-  - [WebView](target.md)
+  - [Sketch Root](preparing.md)
+  - [Image Mapping](preparing.md)
+  - [Text Mapping](preparing.md)
+  - [Click Mapping](preparing.md)
+  - [Layout](preparing.md)
+  - [Repeat Node](preparing.md)
+  - [Hidden](preparing.md)
+  - [Input](preparing.md)
+  - [CheckBox](preparing.md)
+  - [WebView](preparing.md)
 
-- Jevil
-  - [Alert](alert.md)
-  - [Animation](helpers.md)
+- Jevil Reference
+  - [Alert](preparing.md)
+  - [Animation](preparing.md)
 
 
 
