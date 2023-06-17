@@ -27,9 +27,29 @@
   - [WebView](preparing.md)
 
 - Jevil Reference
-  - [Alert](preparing.md)
-  - [Animation](preparing.md)
+  - [Alert](ko/Alert.md)
+  - [Animation](ko/Animation.md)
+  - [Bluetooth](ko/Bluetooth.md)
   - [Camera](ko/camera.md)
+  - [Data](ko/Data.md)
+  - [DeepLink](ko/DeepLink.md)
+  - [Drawer](ko/Drawer.md)
+  - [Etc](ko/Etc.md)
+  - [JevilLogin](ko/JevilLogin.md)
+  - [Location](ko/Location.md)
+  - [Media](ko/Media.md)
+  - [Network](ko/Network.md)
+  - [Nfc](ko/Nfc.md)
+  - [Out Link](ko/OutLink.md)
+  - [Popup](ko/Popup.md)
+  - [Purchase](ko/Purchase.md)
+  - [Push](ko/Push.md)
+  - [Screen Move](ko/ScreenMove.md)
+  - [Sound](ko/Sound.md)
+  - [UI](ko/UI.md)
+  - [Util](ko/Util.md)
+  - [WIFI](ko/WIFI.md)
+  - [Web](ko/Web.md)
 
 
 
