@@ -17,7 +17,7 @@ Jevil.getThe('/api/product/list', function(res) {
 
 호스트를 설정하는 법은 다음과 같이 DAB Console > project > HTTP CONFIG 에서 API Host와 Web Host를 설정할 수 있다.
 
-<img src="https://github.com/mondayless/devil_document/blob/master/docs/_images/host_select.png?raw=true" width="100%" />
+<img src="https://github.com/mondayless/devil_document/blob/master/docs/_images/host_select.png?raw=true" width="80%" />
 
 - API Host는 다음과 같은 http 관련 함수에서 자동으로 설정된다
     - Jevil.getThen()
@@ -29,8 +29,8 @@ Jevil.getThe('/api/product/list', function(res) {
 ## 앱의 호스트를 개발서버로 설정하기
 서버와 앱을 개발하기 위해서는 앱이 나의 개발 서버를 바라보도록 해야한다. 호스트 설정과 비슷한 방법으로 다음과 같이 DAB Console > project > Development 에서 개발용 API Host와 Web Host를 설정할 수 있다.
 
-<img src="https://github.com/mondayless/devil_document/blob/master/docs/_images/host_select_dev.png?raw=true" width="100%" />
+<img src="https://github.com/mondayless/devil_document/blob/master/docs/_images/host_select_dev.png?raw=true" width="80%" />
 
 개발용 호스트를 입력하면 DAB App에서 다음과 같이 모두에게 보이고 호스트 설정을 통해 각자 알맞은 개발서버를 선택할 수 있다
 
-<img src="https://github.com/mondayless/devil_document/blob/master/docs/_images/host_select_app.png?raw=true" width="50%" />
+<img src="https://github.com/mondayless/devil_document/blob/master/docs/_images/host_select_app.png?raw=true" width="30%" />

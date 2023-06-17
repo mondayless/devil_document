@@ -29,6 +29,7 @@
 - Jevil Reference
   - [Alert](preparing.md)
   - [Animation](preparing.md)
+  - [Camera](ko/camera.md)
 
 
 
