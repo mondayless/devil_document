@@ -31,7 +31,7 @@
   - [Animation](ko/Animation.md)
   - [Bluetooth](ko/Bluetooth.md)
   - [Camera](ko/camera.md)
-  - [Data](ko/Data.md)
+  - [Storage](ko/Data.md)
   - [DeepLink](ko/DeepLink.md)
   - [Drawer](ko/Drawer.md)
   - [Etc](ko/Etc.md)
