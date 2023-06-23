@@ -18,10 +18,13 @@ Open camera for taking picture or video
     - maxSec `boolean`  If it has video, max sec for recording. Default 10
     - ratio `float`  Height comparing width. Default 1.0
 - callback `function` `require` 
-    - result `json` `require` {r}	boolean	Complete or cancel
-{preview}	String	File path for video preview jpeg
-{video}	String	File path for video mp4
-{image}	String	File path for image jpeg
+    - result `json`
+      - r `boolean` Complete or cancel
+      - list `array` Selcted Image or Video List
+        - type `String` content type [image|video] 
+        - image `String` local file path of image jpeg
+        - preview `String` local file path of video preview jpeg
+        - video `String` local file path of video video mp4
 
 #### Example code
 ```javascript
@@ -34,7 +37,10 @@ Jevil.camera(
         ratio : 1.0
     },
     function(result){
-
+      if(result.r) {
+        data.image = result.list[0].image
+        Jevil.update()
+      }
 })
             
 ```
@@ -116,12 +122,13 @@ Jevil.cameraQrClose()
     - max `int` `require` 갤러리 선택시 최대 선택 개수
     - title `string`  사진 선택시 상단에 나올 제목
 - callback `function` `require` 
-    - result `json`  {r}	boolean	Complete or cancel
-{list} : [
-{preview}	String	File path for video preview jpeg
-{video}	String	File path for video mp4
-{image}	String	File path for image jpeg
-]
+    - result `json`
+      - r `boolean` Complete or cancel
+      - list `array` Selcted Image or Video List
+        - type `String` content type [image|video] 
+        - image `String` local file path of image jpeg
+        - preview `String` local file path of video preview jpeg
+        - video `String` local file path of video video mp4
 
 #### Example code
 ```javascript
@@ -136,22 +143,19 @@ Jevil.gallery(
           ratio : 1.0, 
       },
       function(result){
-/*
-result sampel
-{
-  r:true,
-  list:[
- {
-type:'image', //동영상인경우 video
-image:'/storage/emulated/0/....jpg',//이미지일경우
-preview:'/storage/emulated/0/....jpg', //동영상일경우
-video:'/storage/emulated/0/....mp4',//동영상일경우
-}
- ]
-}
-result.r true/false, 성공실패
-result.list 
-*/
+        /* result sample
+        {
+          r:true,
+          list:[
+            {
+              type:'image', //동영상인경우 video
+              image:'/storage/emulated/0/....jpg',//이미지일경우
+              preview:'/storage/emulated/0/....jpg', //동영상일경우
+              video:'/storage/emulated/0/....mp4',//동영상일경우
+            }
+          ]
+        }
+        */
         if(result.r) {
           data.image = result.list[0].image
           Jevil.update()
