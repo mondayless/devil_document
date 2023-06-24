@@ -1,7 +1,7 @@
 - Getting started
 
   - [Quick Start](ko/quickstart.md)
-  - [개요](ko/quickstart2.md)
+  - [Quick Start 2](ko/quickstart2.md)
 
 - Sketch 
   - [Sketch Plugin](ko/sketchplugin.md)

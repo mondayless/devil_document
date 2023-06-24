@@ -47,7 +47,7 @@ https://dab.page.link/download
 - 템플릿 스캐치 다운로드(준비중)
 
 #### 플러그인으로 스캐치 업로드 
-<img src="https://github.com/mondayless/devil_document/blob/master/docs/_images/sketch_upload.png?raw=true" width="20%" />
+<img src="https://github.com/mondayless/devil_document/blob/master/docs/_images/sketch_upload.png?raw=true" width="70%" />
 
 ### 앱에서 확인
 DAB앱을 다운받고 생성한 프로젝트를 클릭하고 첫화면을 확인해주세요
