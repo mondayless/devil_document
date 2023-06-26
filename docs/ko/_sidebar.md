@@ -1,14 +1,14 @@
 - Getting started
 
   - [Quick Start](ko/quickstart.md)
-  - [Quick Start 2](ko/quickstart2.md)
+  - [Concept](ko/quickstart2.md)
 
 - Sketch 
   - [Sketch Plugin](ko/sketchplugin.md)
   - [제작 시 유의점](ko/sketchguide.md)
 
 - DAB Web Console
-  - [Screen](preparing.md)
+  - [Screen](screen.md)
   - [Block](preparing.md)
   - [Deploy](preparing.md)
   - [Development](ko/development.md)
