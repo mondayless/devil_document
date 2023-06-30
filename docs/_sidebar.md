@@ -8,7 +8,7 @@
   - [제작 시 유의점](ko/sketchguide.md)
 
 - DAB Web Console
-  - [Screen](screen.md)
+  - [Screen](ko/screen.md)
   - [Block](preparing.md)
   - [Deploy](preparing.md)
   - [Development](ko/development.md)

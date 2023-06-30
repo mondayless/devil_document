@@ -21,22 +21,26 @@ https://s3.ap-northeast-2.amazonaws.com/console.deavil.com/devil_plugin.sketchpl
 
 <img src="https://github.com/mondayless/devil_document/blob/master/docs/_images/sketch-plugin-menu.png?raw=true" width="70%"/>
 
-설치 후 로그인을 한다
+설치 후 로그인을 하고 Plugins > Devil App Builder > Upload Sketch 버튼을 이용하여 스캐치를 업로드한다
 
-로그인을 해야 DAB Console에 스캐치를 업로드할 수 있다
+DAB 콘솔에 로그인이 되어있지 않으면 최초로 로그인을 해야한다
+
 
 ### DAB Console 로그인
 
 https://console.deavil.com
-에 로그인한다
+에 로그인한다. 
 
 DAB 콘솔에서 주로 개발이 이루어진다
+ - 업로드한 스캐치에 블록 룰을 입혀서 클릭이 가능하게 하고, 텍스트나 이미지가 동적으로 변하게 한다
+ - 각 화면에 Screen code를 작성하여, 네트워크 통신과 앱의 비지니스 로직을 처리한다. 
+ - 서버 API는 별도의 플랫폼에서 작성해야 한다 
 
 ### 앱스토어 에서 다운로드 하기
 
-DAB 모바일 어플리케이션을 다운받는데 이 앱은 다음과 같은 용도로 사용한다
-- 개발물 확인
-- 디버깅
+DAB 모바일 어플리케이션을 다운받는데 DAB 웹 콘솔에서 개발한 내용을 실제 앱에서 확인하고자 이 앱을 사용한다. 
+또한 간단한 디버깅도 가능한다
+
 
 <img src="https://github.com/mondayless/devil_document/blob/master/docs/_images/qrcode.jpg?raw=true" width="20%" />
 
