@@ -9,7 +9,7 @@
 
 - DAB Web Console
   - [Screen](ko/screen.md)
-  - [Block](preparing.md)
+  - [Block](ko/block.md)
   - [Deploy](preparing.md)
   - [Development](ko/development.md)
 

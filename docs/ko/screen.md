@@ -43,6 +43,19 @@ Header 블록에는 고정된 노드 명을 써야하며 있고 다음과 같이
  - line : 해더 하단의 line이며 컬러가 적용된다
  - header_bg : 해더의 배경색이다
 
+```javascript
+//타이틀이 '회원가입'이 된다
+data.title = '회원가입' 
+
+// 백버튼이 보인다 백버튼에 대한 클릭은 Block Rule(Click)로 지정한다. 또한 다른 아이콘도 스캐치의 back버튼에 겹쳐서 left노드의 하단에 넣으면 좌측 아이콘이 된다
+data.left = {back:true} 
+
+//마찬가지로 우측 아이콘을 설정한다
+data.right = {complete_icon:true} 
+
+//이렇게 전화면에서 해더의 타이틀을 줄 수 도 있다
+Jevil.go('web', {title:'개인정보 처리방침'}) 
+```
 
 ![Alt text](screen-header.png)
 
