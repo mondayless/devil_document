@@ -30,6 +30,8 @@ Jevil.webLoad('web', function(url){
 
 - Jevil.webScript(node, javascript, callback)
 
+android 는 callback이 좀더 일찍 호출된다
+
 #### parameter
 
 - node `string` `require` WebView 노드 명
@@ -38,11 +40,8 @@ Jevil.webLoad('web', function(url){
 
 #### Example code
 ```javascript
-Jevil.webScript('web', function(url){
-     if(url.includes('bookplay.do')){
-   return true;
-}
-      return false;
+Jevil.webScript('web', "javascript:alert('hello')", function(){
+    Jevil.toast('script end')
 })
 ```
 
