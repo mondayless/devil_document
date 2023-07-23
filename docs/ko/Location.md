@@ -104,8 +104,9 @@
 
 #### Example code
 ```javascript
-  Jevil.startLoading()
-  Jevil.searchPlace({keyword:data.input1}, function(res){
+Jevil.startLoading()
+Jevil.searchPlace({keyword:data.input1},
+  function(res){
     Jevil.stopLoading()
     if(res && res.r) {
       data.list = res.list
@@ -113,7 +114,7 @@
     } else {
       Jevil.alert(res.msg)
     }
-  })
+})
 ```
 
 
