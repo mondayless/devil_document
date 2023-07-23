@@ -12,7 +12,7 @@
     - res `json` `require` 
       - r 성공 여부 `boolean`
       - lat 위도 `double`
-      - lon 경도 `double`
+      - lng 경도 `double`
       - msg 실패 시 메세지 `string`
 
 #### Example code
@@ -41,7 +41,7 @@
 
 ## Jevil.getCurrentPlace
 
-현재 위치의 주소와 위경도를 가져온다
+현재 위치의 법정동 주소와 위경도를 가져온다
 
 - Jevil.getCurrentPlace(parameter, callback)
 
@@ -55,12 +55,13 @@
     - res `json` `require` 
       - r 성공 여부 `boolean`
       - lat 그 주소의 위도 `double`
-      - lon 그 주소의 경도 `double`
+      - lng 그 주소의 경도 `double`
       - msg 실패 시 메세지 `string`
-      - address1 예) 서울
-      - address2 예) 송파구
-      - address3 예) 잠실동
-      - address4 
+      - address 법정동 문자열 예) 서울 송파구 잠실동 `string`
+      - address1 예) 서울 `string`
+      - address2 예) 송파구 `string`
+      - address3 예) 잠실동 `string`
+      - address4 `string`
 
 #### Example code
 ```javascript
@@ -89,8 +90,17 @@
 - param `json` `require` 검색 옵션
     - keyword `string` `require` 검색어
 - callback `function` `require` 
-    - res `json` `require` {r} 성공 여부
-{list} 결과 목록
+    - res `json` `require` 
+      - r 성공 여부 `boolean`
+      - list 검색된 법정동주소 `array`
+        - lat 그 주소의 위도 `double`
+        - lng 그 주소의 경도 `double`
+        - msg 실패 시 메세지 `string`
+        - address 법정동 문자열 예) 서울 송파구 잠실동 `string`
+        - address1 예) 서울 `string`
+        - address2 예) 송파구 `string`
+        - address3 예) 잠실동 `string`
+        - address4 `string`
 
 #### Example code
 ```javascript
