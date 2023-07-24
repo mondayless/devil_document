@@ -46,6 +46,35 @@ Jevil.webScript('web', "javascript:alert('hello')", function(){
 ```
 
 
+## Jevil.webForward
+
+webview를 goForward() 한다
+
+- Jevil.webForward(node)
+
+#### parameter
+
+- node `string` `require` WebView 노드 명
+
+#### Example code
+```javascript
+Jevil.webForward('web')
+```
+
+## Jevil.webRefresh
+
+webview의 현재페이지를 reload() 한다
+
+- Jevil.webRefresh(node)
+
+#### parameter
+
+- node `string` `require` WebView 노드 명
+
+#### Example code
+```javascript
+Jevil.webRefresh('web')
+```
 
 ## jevil://devil.com/popupAddress
 
