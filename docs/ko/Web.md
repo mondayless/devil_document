@@ -24,6 +24,23 @@ Jevil.webLoad('web', function(url){
 })
 ```
 
+## Jevil.webLoadUrl
+
+webview의 페이지 url을 로드한다
+
+- Jevil.webLoadUrl(node, url)
+
+#### parameter
+
+- node `string` `require` WebView 노드 명
+- url `string` `require` WebView에 로드할 url
+
+#### Example code
+```javascript
+Jevil.webLoadUrl('web', 'https://google.co.kr')
+```
+
+
 ## Jevil.webScript
 
 앱에서 webview의 javascript를 호출할 때 실행된다
@@ -46,6 +63,23 @@ Jevil.webScript('web', "javascript:alert('hello')", function(){
 ```
 
 
+## Jevil.webCurrentUrl
+
+webview의 현재 페이지 url을 반환한다
+
+- Jevil.webCurrentUrl(node)
+
+#### parameter
+
+- node `string` `require` WebView 노드 명
+
+#### Example code
+```javascript
+let url = Jevil.webCurrentUrl('web')
+```
+
+
+
 ## Jevil.webForward
 
 webview를 goForward() 한다
@@ -60,6 +94,8 @@ webview를 goForward() 한다
 ```javascript
 Jevil.webForward('web')
 ```
+
+
 
 ## Jevil.webRefresh
 

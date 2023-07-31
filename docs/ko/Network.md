@@ -205,6 +205,7 @@ URL을 다운받아 앱의 문서 폴더에 저장한다
 
 - param `json` `require` 옵션 param
     - url `string` `require` 온라인 파일 URL
+    - showProgress : `boolean` `optional` 다운로드 팝업이 뜰지 말지를 결정 `default` false
     - destFileName `string` `require` 저장될 파일 명
 - callback `function` `require` 
     - res `json` `require` r : 성공여부
