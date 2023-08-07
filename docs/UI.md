@@ -120,23 +120,23 @@ Jevil.scrollEnd('list', function(){
 
 리스트의 스크롤을 특정 인덱스로 이동한다
 
-- Jevil.scrollTo(node, index, no_animation)
+- Jevil.scrollTo(node, index, param)
 
 #### parameter
 
 - node `string` `require` 리스트 노드 
 null일경우 화면리스트를 가리킨다
 - index `int` `require` 행인덱스
-- no_animation `boolean` `` True면 에니메이션이 없다 
-
-default - false
+- param `json` `optional` 스크롤 옵션
+  - offset `int` `optional` cell이 top을 기준으로 얼마나 아래로 이동하느냐
+  - animation `boolean` `optional` 스크롤 이동 애니메이션 여부 default - true
 
 
 #### Example code
 ```javascript
 Jevil.scrollTo('list', index)
 
-Jevil.scrollTo(null, index, true)
+Jevil.scrollTo(null, index, {animation:true})
 ```
 
 
@@ -308,7 +308,31 @@ Jevil.videoViewAutoPlay()
 
 
 
+## Jevil.webLoad
 
+webview에서 urlload할때  마다 호출된다. 이 함수는 단일 블록 스크린에서만 실행 가능하다
+그리고 최초 스크립트에서 실행할 수 없고 비동기로 실행 되어야 한다
+
+두번째 파라미터는 반드시 true 나 false를 반환해야하며, true를 반환할 시 그 url을 로드되지 않는다
+
+- Jevil.webLoad(node, callback)
+
+#### parameter
+
+- node `string` `require` WebView 노드 명
+    - url `string` `require` 로드될 url
+- callback `function` `require` 
+    - url `string` `require` webView에 로드되는 url
+
+#### Example code
+```javascript
+Jevil.webLoad('web', function(url){
+     if(url.includes('bookplay.do')){
+   return true;
+}
+      return false;
+})
+```
 
 
 

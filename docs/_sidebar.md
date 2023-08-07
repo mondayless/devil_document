@@ -10,22 +10,11 @@
 - DAB Web Console
   - [Screen](ko/screen.md)
   - [Block](ko/block.md)
+  - [Block Condition](ko/block.md)
   - [Deploy](preparing.md)
   - [Development](ko/development.md)
-
-- Block Rule
-
-  - [Sketch Root](preparing.md)
-  - [Image Mapping](preparing.md)
-  - [Text Mapping](preparing.md)
-  - [Click Mapping](preparing.md)
-  - [Layout](preparing.md)
-  - [Repeat Node](preparing.md)
-  - [Hidden](preparing.md)
-  - [Input](preparing.md)
-  - [CheckBox](preparing.md)
-  - [WebView](preparing.md)
-
+  - [Tutorials](ko/preparing.md)
+    - [Multiple Image Input](ko/preparing.md)
 - Jevil Reference
   - [Alert](ko/Alert.md)
   - [Animation](ko/Animation.md)

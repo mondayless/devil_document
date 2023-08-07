@@ -65,6 +65,32 @@ Jevil.go('web', {title:'개인정보 처리방침'})
 [해더 샘플 스캐치 다운로드](screen_header_sample.zip)
 
 ## Footer Block
- - TODO
+
+푸터 블록은 다음 그림과 같이 screen의 content 영역을  footer의 높이만큼 줄이게된다
+
+![Alt text](screen_footer.png)
+
+안드로이드의 경우 블럭의 높이가 그대로 변환된다
+
+![Alt text](screen_footer_android.png)
+
+하지만 아이폰의 경우 하단의 블럭의 높이가 안드로이드 save area inset 만큼 아래로 늘어난다
+
+![Alt text](screen_footer_ios.png)
 
 #### Footer Inside Block
+ 
+Footer inside block은 Content 영역을 줄이지 않는다
+
+![Alt text](screen_footer_inside.png)
+
+다음과 같이 푸터의 일부가 튀어 나온 경우 유용하다
+
+![Alt text](screen_footer_inside_sample.png)
+
+또한 푸터가 조건부로 보였다가 안보였다가 해야할 때도 유용하다
+
+ - 푸터의 block에 Layout Rule - Wrap Content로 설정하여 Footer 의 내용에 따라 높이가 0이 될수있도록 한다. 
+ - 그리고 푸터의 내용에 hidden rule을 적용하여, 푸터 높이가 0이 되도록한다
+
+ 

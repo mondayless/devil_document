@@ -120,23 +120,23 @@ Jevil.scrollEnd('list', function(){
 
 리스트의 스크롤을 특정 인덱스로 이동한다
 
-- Jevil.scrollTo(node, index, no_animation)
+- Jevil.scrollTo(node, index, param)
 
 #### parameter
 
 - node `string` `require` 리스트 노드 
 null일경우 화면리스트를 가리킨다
 - index `int` `require` 행인덱스
-- no_animation `boolean` `` True면 에니메이션이 없다 
-
-default - false
+- param `json` `optional` 스크롤 옵션
+  - offset `int` `optional` cell이 top을 기준으로 얼마나 아래로 이동하느냐
+  - animation `boolean` `optional` 스크롤 이동 애니메이션 여부 default - true
 
 
 #### Example code
 ```javascript
 Jevil.scrollTo('list', index)
 
-Jevil.scrollTo(null, index, true)
+Jevil.scrollTo(null, index, {animation:true})
 ```
 
 
